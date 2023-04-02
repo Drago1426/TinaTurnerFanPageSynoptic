@@ -1,0 +1,63 @@
+.logo{
+    width: 25%;
+  }
+
+  .hamburger{
+    padding-right: 0%;
+  }
+
+  .navbar{
+    position: fixed;
+    z-index: 100;
+  }
+
+  .navbar-toggler{
+    background-color: white;
+  }
+
+  .nav-item a{
+    color: #DDA92B;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .nav-item :hover{
+    color: #efce84;
+  }
+
+  .image{
+    padding-top: 7.5%;
+    float: left;
+    width: 25%;
+    height: auto;
+  }
+
+  .text{
+    padding-top: 5%;
+    padding-left: 2%;
+    float: right;
+    width: 75%;
+    font-size: 2vw;
+    font-size: 3vh;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  body{
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer{
+    margin-top: auto;
+    padding-top: 1%;
+  }
+
+  footer p{
+    padding-left: 20px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  p{
+    color: #DDA92B;
+  }

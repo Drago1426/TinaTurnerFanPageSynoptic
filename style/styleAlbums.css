@@ -1,0 +1,73 @@
+.logo{
+    width: 25%;
+  }
+
+  .hamburger{
+    padding-right: 0%;
+  }
+
+  .navbar{
+    position: fixed;
+    z-index: 100;
+  }
+
+  .navbar-toggler{
+    background-color: white;
+  }
+
+  .nav-item a{
+    color: #DDA92B;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .nav-item :hover{
+    color: #efce84;
+  }
+  
+  body{
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer{
+    margin-top: auto;
+    padding-top: 10%;
+  }
+
+  footer p{
+    color: #DDA92B;
+    padding-left: 20px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  p{
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .container{
+    padding-top: 2%;
+  }
+
+  .column{
+    padding-bottom: 5%;
+    padding-left: 15%;
+  }
+
+  .card-title{
+    color: #DDA92B;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .card{
+    float: left;
+  }
+
+  .card img{
+    height: 286px;
+  }
+
+  .moveLeft{
+    padding-left: 50%;
+  }
