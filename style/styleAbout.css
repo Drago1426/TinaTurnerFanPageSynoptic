@@ -1,63 +1,137 @@
-.logo{
+  /* Header */
+  .logo {
     width: 25%;
+    z-index: 100;
+    position: fixed;
+    max-width: 255px;
+    max-height: 115px;
   }
 
-  .hamburger{
+
+
+  /* Navigation Bar */
+  .hamburger {
     padding-right: 0%;
   }
 
-  .navbar{
+  .navbar {
     position: fixed;
     z-index: 100;
+    padding-top: 150px;
   }
 
-  .navbar-toggler{
+  .navbar-toggler {
     background-color: white;
   }
 
-  .nav-item a{
+  .nav-item a {
     color: #DDA92B;
     font-family: 'Times New Roman', Times, serif;
   }
 
-  .nav-item :hover{
+  .nav-item :hover {
     color: #efce84;
   }
 
-  .image{
-    padding-top: 7.5%;
-    float: left;
-    width: 25%;
-    height: auto;
-  }
 
-  .text{
-    padding-top: 5%;
-    padding-left: 2%;
-    float: right;
-    width: 75%;
-    font-size: 2vw;
-    font-size: 3vh;
-    font-family: 'Times New Roman', Times, serif;
-  }
 
-  body{
-    background-color: #262626;
-    display: flex;
-    flex-direction: column;
-  }
+/* The 60's, 80's, 00's Section */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
-  footer{
+.column {
+  flex: 25%;
+  padding: 0 4px;
+}
+
+#section60s img, #section80s img {
+  margin-top: 8px;
+  vertical-align: middle;
+  min-height: 400px;
+  width: 400px;
+  max-height: 200px;
+  border-radius: 5px;
+  float: left;
+}
+
+#section60s, #section80s{
+  background-color: #0f0f0f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#section60s h2, #section80s h2 {
+  color: #B2851F;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* The 70's Section */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  padding: 0 4px;
+}
+
+#section70s img {
+  margin-top: 8px;
+  vertical-align: middle;
+  min-height: 400px;
+  width: 400px;
+  max-height: 200px;
+  border-radius: 5px;
+  float: right;
+}
+
+#section70s{
+  background-color: #0f0f0f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#section70s h2 {
+  color: #B2851F;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+  /* Footer */
+  footer {
     margin-top: auto;
-    padding-top: 1%;
   }
 
-  footer p{
+  footer p {
     padding-left: 20px;
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
+    color: #DDA92B;
   }
 
-  p{
-    color: #DDA92B;
+
+
+  /* General */
+  body {
+    width: 1260px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #0f0f0f;
+  }
+
+  h1 {
+    padding-top: 30px;
+    color: #B2851F;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: center;
   }
