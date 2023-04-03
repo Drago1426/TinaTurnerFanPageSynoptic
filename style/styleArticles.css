@@ -1,87 +1,100 @@
-.logo{
+  /* Header */
+  .logo {
     width: 25%;
+    z-index: 100;
+    position: fixed;
+    max-width: 255px;
+    max-height: 115px;
   }
 
-  .hamburger{
+
+  
+  /* Navigation Bar */
+  .hamburger {
     padding-right: 0%;
   }
 
-  .navbar{
+  .navbar {
     position: fixed;
     z-index: 100;
+    padding-top: 150px;
   }
 
-  .navbar-toggler{
+  .navbar-toggler {
     background-color: white;
   }
 
-  .nav-item a{
+  .nav-item a {
     color: #DDA92B;
     font-family: 'Times New Roman', Times, serif;
   }
 
-  .nav-item :hover{
+  .nav-item :hover {
     color: #efce84;
   }
 
-  .image{
-    padding-top: 7.5%;
-    float: left;
-    width: 25%;
-    height: auto;
-  }
 
-  .text{
-    padding-top: 5%;
-    padding-left: 2%;
-    float: right;
-    width: 75%;
-    font-size: 1.5vw;
-    font-size: 1.5vh;
-    font-family: 'Times New Roman', Times, serif;
-  }
 
-  body{
-    background-color: #262626;
+  /* Cards */
+  .row {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 4px;
   }
 
-  footer{
-    margin-top: auto;
-    padding-top: 10%;
-  }
-
-  footer p{
-    padding-left: 20px;
-    font-size: 17px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  p{
-    color: #DDA92B;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-
-  .container{
+  .container {
+    padding-left: 5%;
     padding-top: 2%;
   }
 
-  .column{
+  .column {
     float: left;
     width: 50%;
     padding: 10px;
   }
 
-  .card{
+  .card {
     height: 52%;
   }
 
-  .card img{
+  .card img {
     height: 350px;
   }
 
-  h5{
+  h5 {
     font-family: 'Times New Roman', Times, serif;
+  }
+
+
+
+  /* Footer */
+  footer {
+    margin-top: auto;
+    padding-top: 100px;
+  }
+
+  footer p {
+    padding-left: 20px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #DDA92B;
+  }
+
+
+
+  /* General */
+  body {
+    width: 1260px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #0f0f0f;
+  }
+
+  h1 {
+    padding-top: 30px;
+    color: #B2851F;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: center;
   }

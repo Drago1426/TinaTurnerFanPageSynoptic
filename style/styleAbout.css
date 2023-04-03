@@ -35,73 +35,82 @@
 
 
 
-/* The 60's, 80's, 00's Section */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
+  /* The 60's, 80's, 00's Section */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
 
-.column {
-  flex: 25%;
-  padding: 0 4px;
-}
+  .column {
+    flex: 25%;
+    padding: 0 4px;
+  }
 
-#section60s img, #section80s img {
-  margin-top: 8px;
-  vertical-align: middle;
-  min-height: 400px;
-  width: 400px;
-  max-height: 200px;
-  border-radius: 5px;
-  float: left;
-}
+  #section60s img,
+  #section80s img,
+  #section00s img {
+    margin-top: 8px;
+    vertical-align: middle;
+    min-height: 400px;
+    width: 400px;
+    max-height: 200px;
+    border-radius: 5px;
+    float: left;
+  }
 
-#section60s, #section80s{
-  background-color: #0f0f0f;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+  #section60s,
+  #section80s,
+  #section00s {
+    background-color: #0f0f0f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 
-#section60s h2, #section80s h2 {
-  color: #B2851F;
-  font-family: 'Times New Roman', Times, serif;
-}
+  #section60s h2,
+  #section80s h2,
+  #section00s h2 {
+    color: #B2851F;
+    font-family: 'Times New Roman', Times, serif;
+  }
 
 
 
-/* The 70's Section */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
+  /* The 70's, 90's Section */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
 
-.column {
-  flex: 25%;
-  padding: 0 4px;
-}
+  .column {
+    flex: 25%;
+    padding: 0 4px;
+  }
 
-#section70s img {
-  margin-top: 8px;
-  vertical-align: middle;
-  min-height: 400px;
-  width: 400px;
-  max-height: 200px;
-  border-radius: 5px;
-  float: right;
-}
+  #section70s img,
+  #section90s img {
+    margin-top: 8px;
+    vertical-align: middle;
+    min-height: 400px;
+    width: 400px;
+    max-height: 200px;
+    border-radius: 5px;
+    float: right;
+  }
 
-#section70s{
-  background-color: #0f0f0f;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+  #section70s,
+  #section90s {
+    background-color: #161616;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 
-#section70s h2 {
-  color: #B2851F;
-  font-family: 'Times New Roman', Times, serif;
-}
+  #section70s h2,
+  #section90s h2 {
+    color: #B2851F;
+    font-family: 'Times New Roman', Times, serif;
+  }
 
 
 
@@ -134,4 +143,9 @@
     font-family: 'Times New Roman', Times, serif;
     margin: auto;
     text-align: center;
+  }
+
+  p {
+    color: #DDA92B;
+    font-family: 'Times New Roman', Times, serif
   }

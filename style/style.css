@@ -33,7 +33,7 @@
     color: #efce84;
   }
 
-  
+
 
   /* Albums Section */
   .row {
@@ -55,7 +55,7 @@
     border-radius: 5px;
   }
 
-  #albumsSection{
+  #albumsSection {
     background-color: #262626;
     padding-bottom: 50px;
   }
@@ -70,24 +70,24 @@
 
 
   /* About Section */
-  #aboutSection{
+  #aboutSection {
     background-color: #444444;
   }
 
-  #aboutSection img{
+  #aboutSection img {
     max-height: 750px;
     min-height: 750px;
     padding-left: 100px;
   }
 
 
-  #aboutSection p{
+  #aboutSection p {
     color: #DDA92B;
     font-size: min(16px);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
-  #aboutSection h1{
+  #aboutSection h1 {
     padding-top: 20px;
     padding-left: 150px;
     color: #B2851F;
@@ -107,15 +107,14 @@
     font-family: 'Times New Roman', Times, serif;
     color: #DDA92B;
   }
-  
+
 
 
   /* General */
-  body{
+  body {
     width: 1260px;
     display: flex;
     flex-direction: column;
     margin: auto;
     background-color: #0f0f0f;
   }
-
