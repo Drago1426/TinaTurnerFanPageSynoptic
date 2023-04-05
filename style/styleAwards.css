@@ -1,66 +1,149 @@
-.logo{
+  /* Header */
+  .logo {
     width: 25%;
+    z-index: 100;
+    position: fixed;
+    max-width: 255px;
+    max-height: 115px;
   }
 
-  .hamburger{
+
+
+  /* Navigation Bar */
+  .hamburger {
     padding-right: 0%;
   }
 
-  .navbar{
+  .navbar {
     position: fixed;
     z-index: 100;
+    padding-top: 150px;
   }
 
-  .navbar-toggler{
+  .navbar-toggler {
     background-color: white;
   }
 
-  .nav-item a{
+  .nav-item a {
     color: #DDA92B;
     font-family: 'Times New Roman', Times, serif;
   }
 
-  .nav-item :hover{
+  .nav-item :hover {
     color: #efce84;
   }
-  
-  body{
-    background-color: #262626;
-    display: flex;
-    flex-direction: column;
-  }
 
-  footer{
-    margin-top: auto;
-    padding-top: 10%;
-  }
 
-  footer p{
-    padding-left: 20px;
-    font-size: 17px;
+
+  /* Main Header */
+  .mainHeader {
+    padding-top: 150px;
+    color: #B2851F;
     font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: center;
+    background-color: #0f0f0f;
   }
 
-  p{
+
+
+  /* Main Image */
+  .mainImage {
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+
+
+  /* Description */
+  .description {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
     color: #DDA92B;
-    font-family: 'Times New Roman', Times, serif;
   }
 
-  .container{
+  .mainContent {
+    padding-top: 150px;
+    color: #B2851F;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: center;
+
+    background-color: #0f0f0f;
+  }
+
+
+
+  /* Awards Section */
+  #awardsSection {
+    background-color: #161616;
+    padding-bottom: 50px;
+  }
+
+  /* Cards */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .container {
     padding-top: 2%;
   }
 
-  .column{
+  .column {
     float: left;
     width: 50%;
     padding: 10px;
   }
 
-  h5{
+  .card {
+    height: 50%;
+    width: auto;
+  }
+
+  .card img {
+    height: 300px;
+  }
+
+  h5 {
     font-family: 'Times New Roman', Times, serif;
   }
 
-  .imageFix{
-    width: 100%;
-    height: 100%;
+
+
+  /* Footer */
+  footer {
+    margin-top: auto;
+    background-color: #0f0f0f;
   }
+
+  footer p {
+    padding-left: 20px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #DDA92B;
+  }
+
+
+
+  /* General */
+  body {
+    width: 1260px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-image: url(/images/Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+
+  

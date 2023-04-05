@@ -13,15 +13,15 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <img class="logo" src="/images/logo.png" alt="logo">
-        <div class="container-fluid hamburger">
+    <img class="logo" src="/images/logo.png" alt="logo"> <!-- Logo -->
+    <nav class="navbar"> <!-- Transparent Navigation Bar -->
+        <div class="container-fluid hamburger"> <!-- Hamburger Menu -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!-- List with Web Pages -->
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
@@ -32,7 +32,7 @@
                         <a class="nav-link" href="articles.html">Articles</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color: #efce84;" class="nav-link active" aria-current="page">Awards</a>
+                        <a style="color: #efce84;" aria-current="page" class="nav-link active" href="#">Awards</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="albums.html">Albums</a>
@@ -45,49 +45,22 @@
         </div>
     </nav>
 
-    <section>
-        <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="4"
-                    aria-label="Slide 5"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/images/carousel1.jpg" class="img-fluid d-block w-100" alt="Tina Turner">
-                </div>
-                <div class="carousel-item">
-                    <img src="/images/carousel2.png" class="img-fluid d-block w-100" alt="Tina Turner">
-                </div>
-                <div class="carousel-item">
-                    <img src="/images/carousel3.jpg" class="img-fluid d-block w-100" alt="Tina Turner">
-                </div>
-                <div class="carousel-item">
-                    <img src="/images/carousel4.jpg" class="img-fluid d-block w-100" alt="Tina Turner">
-                </div>
-                <div class="carousel-item">
-                    <img src="/images/carousel5.jpg" class="img-fluid d-block w-100" alt="Tina Turner">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+    <div class="mainContent">
+        <h1>Tina Turner</h1>
+        <h1>Awards</h1>
 
+        <img src="/images/TinaTurnerAward.png" class="mainImage" alt="">
+
+        <p class="description">
+            Tina Turner is a legendary singer, songwriter, and performer who has won numerous awards throughout her career.
+            Her awards include 12 Grammy Awards, induction into the Rock and Roll Hall of Fame, the Kennedy Center Honors,
+            the Grammy Lifetime Achievement Award, a star on the Hollywood Walk of Fame, and several NAACP Image Awards.
+            Tina Turner's contributions to the music industry have been recognized with some of the most prestigious awards
+            in the industry, cementing her status as a music icon.
+        </p>    
+    </div>
+    
+    <section id="awardsSection"> <!-- Section with images of Albums -->
         <div class="container">
             <div class="row">
                 <div class="column">
@@ -188,7 +161,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+      </section>
     </section>
 
 

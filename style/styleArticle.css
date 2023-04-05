@@ -1,29 +1,40 @@
-.logo{
+  /* Header */
+  .logo {
     width: 25%;
+    z-index: 100;
+    position: fixed;
+    max-width: 255px;
+    max-height: 115px;
   }
 
-  .hamburger{
+
+
+  /* Navigation Bar */
+  .hamburger {
     padding-right: 0%;
   }
 
-  .navbar{
+  .navbar {
     position: fixed;
     z-index: 100;
+    padding-top: 150px;
   }
 
-  .navbar-toggler{
+  .navbar-toggler {
     background-color: white;
   }
 
-  .nav-item a{
+  .nav-item a {
     color: #DDA92B;
     font-family: 'Times New Roman', Times, serif;
   }
 
-  .nav-item :hover{
+  .nav-item :hover {
     color: #efce84;
   }
 
+  
+  /* Main Content */
   .text{
     padding-top: 5%;
     padding-left: 2%;
@@ -31,23 +42,6 @@
     width: 75%;
     font-size: 1.5vw;
     font-size: 1.5vh;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  body{
-    background-color: #262626;
-    display: flex;
-    flex-direction: column;
-  }
-
-  footer{
-    margin-top: auto;
-    padding-top: 10%;
-  }
-
-  footer p{
-    padding-left: 20px;
-    font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
   }
 
@@ -60,7 +54,7 @@
   h2{
     color: #DDA92B;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 10%;
     padding-bottom: 2%;
   }
 
@@ -86,4 +80,37 @@
     background-color: #0e0d0d;
     padding-top: 1%;
     padding-bottom: 1%;
+  }
+
+
+
+  /* Footer */
+  footer {
+    margin-top: auto;
+    background-color: #0f0f0f;
+  }
+
+  footer p {
+    padding-left: 20px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #DDA92B;
+  }
+
+
+
+  /* General */
+  body {
+    width: 1260px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-image: url(/images/Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  section {
+    background-color: #0e0d0d;
   }

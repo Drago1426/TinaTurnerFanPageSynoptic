@@ -13,16 +13,15 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <img class="logo" src="/images/logo.png" alt="logo">
-        <div class="container-fluid hamburger">
+    <img class="logo" src="/images/logo.png" alt="logo"> <!-- Logo -->
+    <nav class="navbar"> <!-- Transparent Navigation Bar -->
+        <div class="container-fluid hamburger"> <!-- Hamburger Menu -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarToggleExternalContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!-- List with Web Pages -->
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
@@ -39,84 +38,35 @@
                         <a class="nav-link" href="albums.html">Albums</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color: #efce84;" class="nav-link active" aria-current="page">Contact</a>
+                        <a style="color: #efce84;" class="nav-link active" aria-current="page" href="#">Contact</a>
                     </li>
+                </ul>
             </div>
         </div>
     </nav>
 
     <section>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-8">
-                    <form action="mailto:admin@pctech.com" method="post" class="contact-form"
-                        onsubmit="return validateForm();">
-                        <div class="container">
-                            <div class="row">
-                                <h2>Contact Form</h2>
-                            </div>
-                            <div class="row">
-                                <div class="col-3">
-                                    <div>
-                                        <label for="firstName">First Name</label>
-                                        <input type="text" name="firstName" id="firstName" placeholder="Joe">
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div>
-                                        <label for="lastName">Last Name</label>
-                                        <input type="text" name="lastName" id="lastName" placeholder="Borg">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <div>
-                                        <label for="email">Email Address</label>
-                                        <input type="email" name="email" id="email" placeholder="example@gmail.com">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <div>
-                                        <label for="message">Your Message</label>
-                                        <textarea name="message" id="message" cols="60" rows="10"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row my-4">
-                                <div class="col-3 d-grid gap-2">
-                                    <button type="submit" class="btn btn-primary">Send</button>
-                                </div>
-
-                                <div class="col-3 d-grid gap-2">
-                                    <button type="reset" class="btn btn-danger">Cancel</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-4 containerCard">
-                    <div id="errors" class="notification card border-danger mb-3 d-none text-danger">
-                        <div class="card-header">
-                            <h4>Invalid Input</h4>
-                        </div>
-                        <div class="card-body text-danger">
-                            <p id="errors-content" class="card-text"></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <form action="mailto:petersheehan22@gmail.com" method="post" class="contact-form"
+                onsubmit="return validateForm();">
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Tina">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Turner">
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message" cols="60" rows="10"></textarea>
+                <button type="submit" class="btn btn-primary buttons">Send</button>
+                <button type="reset" class="btn btn-danger buttons">Cancel</button>
+            </form>
+        </div>
     </section>
 
-
-
     <footer>
-        <p>&copy; Peter Sheehen 2022</p>
+        <p>&copy; Peter Sheehen 2023</p>
     </footer>
 
-    <script src="/script/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>

@@ -1,73 +1,100 @@
-.logo{
+  /* Header */
+  .logo {
     width: 25%;
+    z-index: 100;
+    position: fixed;
+    max-width: 255px;
+    max-height: 115px;
   }
 
-  .hamburger{
+
+
+  /* Navigation Bar */
+  .hamburger {
     padding-right: 0%;
   }
 
-  .navbar{
+  .navbar {
     position: fixed;
     z-index: 100;
+    padding-top: 150px;
   }
 
-  .navbar-toggler{
+  .navbar-toggler {
     background-color: white;
   }
 
-  .nav-item a{
+  .nav-item a {
     color: #DDA92B;
     font-family: 'Times New Roman', Times, serif;
   }
 
-  .nav-item :hover{
+  .nav-item :hover {
     color: #efce84;
   }
-  
-  body{
-    background-color: #262626;
+
+
+
+  /* Albums Section */
+  .row {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 4px;
   }
 
-  footer{
+  .column {
+    flex: 25%;
+    padding: 0 4px;
+  }
+
+  #albumsSection img {
+    margin-top: 8px;
+    vertical-align: middle;
+    min-height: 280px;
+    max-height: 300px;
+    border-radius: 5px;
+  }
+
+  #albumsSection {
+    background-color: #262626;
+    padding-bottom: 50px;
+  }
+
+  #albumsSection h1 {
+    color: #B2851F;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+
+  /* Footer */
+  footer {
     margin-top: auto;
-    padding-top: 10%;
+    background-color: #0f0f0f;
   }
 
-  footer p{
-    color: #DDA92B;
+  footer p {
     padding-left: 20px;
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
-  }
-
-  p{
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  .container{
-    padding-top: 2%;
-  }
-
-  .column{
-    padding-bottom: 5%;
-    padding-left: 15%;
-  }
-
-  .card-title{
     color: #DDA92B;
-    font-family: 'Times New Roman', Times, serif;
   }
 
-  .card{
-    float: left;
-  }
 
-  .card img{
-    height: 286px;
-  }
 
-  .moveLeft{
-    padding-left: 50%;
+  /* General */
+  body {
+    width: 1260px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-image: url(/images/Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
+  
